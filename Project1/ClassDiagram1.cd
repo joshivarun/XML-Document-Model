@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WinTools_Extracts::File">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="WinTools_Extracts::File::direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WinTools_Extracts::File::type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="WinTools_Extracts::File::byte" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="WinTools_Extracts::File::block" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSystem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAACAAIAAAAAAAAAAEAAAAAFCAAAoIhAhAABJAA=</HashCode>
+      <FileName>FileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinTools_Extracts::FileHandler">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAAEBAAIAAAAAEQAAgAIJAAAAAAAA=</HashCode>
+      <FileName>FileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Toker">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Toker::mode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Tokenizer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Toker::state" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Tokenizer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAABwEEAgACADIAiKCTERAAIIRAICgBBIgAAGQgAQ=</HashCode>
+      <FileName>Tokenizer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlParts">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIwAAAEIAAAAAEAEEEYCAAAAEAAAAADAAAQAAAAAA=</HashCode>
+      <FileName>XmlElementParts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlTree">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACGAAAIAAAAAAIAAAQAAABAAABQBSAAQAAAEAA=</HashCode>
+      <FileName>XmlTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlProcessing::XmlNode">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACBAgAICAAQFAIAAAgAKARABACAAACgAAAACAAA=</HashCode>
+      <FileName>XmlNodes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parser">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAACAAAAAEAAAAAAAAAQAAAAAAAACAAEAAAAAAAA=</HashCode>
+      <FileName>Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ITokCollection">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAEAEEEYEAAAAEAAAAADAAAAAAAAAA=</HashCode>
+      <FileName>ITokCollection.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,735 @@
+﻿Build started 12/19/2011 5:25:34 PM.
+Environment at start of build:
+MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+LOCALAPPDATA = C:\Users\Varun\AppData\Local
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Varun\AppData\Roaming
+CLASSPATH = .;C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = VARUN-PC
+ComSpec = C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = C:
+HOMEPATH = \Users\Varun
+LOGONSERVER = \\VARUN-PC
+NUMBER_OF_PROCESSORS = 2
+OS = Windows_NT
+Path = C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Broadcom\Broadcom 802.11\Driver;c:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\PROGRA~2\Java\jdk1.6.0_25\bin;C:\Program Files (x86)\Android\android-sdk;C:\Program Files (x86)\QuickTime\QTSystem\
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 23 Stepping 10, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 170a
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+QTJAVA = C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\Varun\AppData\Local\Temp
+TMP = C:\Users\Varun\AppData\Local\Temp
+USERDOMAIN = Varun-PC
+USERNAME = Varun
+USERPROFILE = C:\Users\Varun
+VBOX_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+VisualStudioDir = C:\Users\Varun\Documents\Visual Studio 2010
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\Windows
+
+17:25:34.407     1>Project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" on node 2 (rebuild target(s)).
+17:25:34.407     1>Building with tools version "4.0".
+17:25:34.407     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Configuration=Debug (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\' != '' and !HasTrailingSlash('F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+17:25:34.409     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Project1.vcxproj".: (TargetId:2)
+17:25:34.409     1>Target "_DetermineManagedStateFromCL: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Rebuild" depends on it):
+17:25:34.409     1>Done building target "_DetermineManagedStateFromCL" in project "Project1.vcxproj".: (TargetId:3)
+17:25:34.409     1>Target "_PrepareForRebuild: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Rebuild" depends on it):
+17:25:34.409     1>Done building target "_PrepareForRebuild" in project "Project1.vcxproj".: (TargetId:4)
+17:25:34.409     1>Target "BeforeRebuild: (TargetId:5)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Rebuild" depends on it):
+17:25:34.409     1>Done building target "BeforeRebuild" in project "Project1.vcxproj".: (TargetId:5)
+17:25:34.409     1>Target "_PrepareForClean: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Clean" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:4)
+                     Deleting file "Debug\Project1.lastbuildstate". (TaskId:4)
+                   Done executing task "Delete". (TaskId:4)
+17:25:34.410     1>Done building target "_PrepareForClean" in project "Project1.vcxproj".: (TargetId:6)
+17:25:34.410     1>Target "BeforeClean: (TargetId:7)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Clean" depends on it):
+17:25:34.410     1>Done building target "BeforeClean" in project "Project1.vcxproj".: (TargetId:7)
+                   Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                                       ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                                      Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'exe' != 'library') or
+                                       ('' == '')) and
+                                      Exists('obj\Project1.vcxproj.UnmanagedRegistration.cache')).
+17:25:34.411     1>Target "CoreClean: (TargetId:8)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Clean" depends on it):
+                   Task "Delete" (TaskId:5)
+                   Done executing task "Delete". (TaskId:5)
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:6)
+                   Done executing task "ReadLinesFromFile". (TaskId:6)
+                   Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "FindUnderPath" (TaskId:7)
+                     Comparison path is "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\". (TaskId:7)
+                   Done executing task "FindUnderPath". (TaskId:7)
+                   Task "FindUnderPath" (TaskId:8)
+                     Comparison path is "Debug\". (TaskId:8)
+                   Done executing task "FindUnderPath". (TaskId:8)
+                   Task "Delete" (TaskId:9)
+                   Done executing task "Delete". (TaskId:9)
+                   Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "RemoveDuplicates" (TaskId:10)
+                   Done executing task "RemoveDuplicates". (TaskId:10)
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:11)
+                   Done executing task "MakeDir". (TaskId:11)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:12)
+                   Done executing task "WriteLinesToFile". (TaskId:12)
+17:25:34.412     1>Done building target "CoreClean" in project "Project1.vcxproj".: (TargetId:8)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+17:25:34.412     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:9)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+17:25:34.413     1>Done building target "_SplitProjectReferencesByFileExistence" in project "Project1.vcxproj".: (TargetId:9)
+17:25:34.413     1>Target "CleanReferencedProjects: (TargetId:10)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Clean" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+17:25:34.413     1>Done building target "CleanReferencedProjects" in project "Project1.vcxproj".: (TargetId:10)
+17:25:34.413     1>Target "CleanPublishFolder: (TargetId:11)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Clean" depends on it):
+                   Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\app.publish\'=='F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\app.publish\' and Exists('F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\app.publish\')).
+17:25:34.413     1>Done building target "CleanPublishFolder" in project "Project1.vcxproj".: (TargetId:11)
+17:25:34.413     1>Target "AfterClean: (TargetId:12)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Clean" depends on it):
+17:25:34.413     1>Done building target "AfterClean" in project "Project1.vcxproj".: (TargetId:12)
+                   Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+17:25:34.413     1>Target "BeforeCppClean: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "CppClean" depends on it):
+17:25:34.413     1>Done building target "BeforeCppClean" in project "Project1.vcxproj".: (TargetId:13)
+17:25:34.413     1>Target "CoreCppClean: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "CppClean" depends on it):
+                   Task "MakeDir" (TaskId:13)
+                   Done executing task "MakeDir". (TaskId:13)
+                   Using "CppClean" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CppClean" (TaskId:14)
+                   Done executing task "CppClean". (TaskId:14)
+                   Task "WriteLinesToFile" (TaskId:15)
+                   Done executing task "WriteLinesToFile". (TaskId:15)
+17:25:34.513     1>Done building target "CoreCppClean" in project "Project1.vcxproj".: (TargetId:14)
+17:25:34.513     1>Target "AfterCppClean: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "CppClean" depends on it):
+17:25:34.513     1>Done building target "AfterCppClean" in project "Project1.vcxproj".: (TargetId:15)
+17:25:34.513     1>Target "PGInstrumentedClean: (TargetId:16)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "CppClean" depends on it):
+                   Task "Delete" (TaskId:16)
+                   Done executing task "Delete". (TaskId:16)
+17:25:34.514     1>Done building target "PGInstrumentedClean" in project "Project1.vcxproj".: (TargetId:16)
+17:25:34.514     1>Target "CppClean: (TargetId:17)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Clean" depends on it):
+17:25:34.514     1>Done building target "CppClean" in project "Project1.vcxproj".: (TargetId:17)
+17:25:34.514     1>Target "Clean: (TargetId:18)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Rebuild" depends on it):
+17:25:34.514     1>Done building target "Clean" in project "Project1.vcxproj".: (TargetId:18)
+                   Target "_DetermineManagedStateFromCL" skipped. Previously built successfully.
+17:25:34.514     1>Target "_PrepareForBuild: (TargetId:19)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Build" depends on it):
+17:25:34.515     1>Done building target "_PrepareForBuild" in project "Project1.vcxproj".: (TargetId:19)
+17:25:34.515     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:17)
+                     PATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\Windows\SysWow64;;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Broadcom\Broadcom 802.11\Driver;c:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\PROGRA~2\Java\jdk1.6.0_25\bin;C:\Program Files (x86)\Android\android-sdk;C:\Program Files (x86)\QuickTime\QTSystem\; (TaskId:17)
+                   Done executing task "SetEnv". (TaskId:17)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:18)
+                     LIB=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:18)
+                   Done executing task "SetEnv". (TaskId:18)
+                   Task "SetEnv" (TaskId:19)
+                     LIBPATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:19)
+                   Done executing task "SetEnv". (TaskId:19)
+                   Task "SetEnv" (TaskId:20)
+                     INCLUDE=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:20)
+                   Done executing task "SetEnv". (TaskId:20)
+17:25:34.519     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "Project1.vcxproj".: (TargetId:20)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+17:25:34.519     1>Target "BeforeResolveReferences: (TargetId:21)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "ResolveReferences" depends on it):
+17:25:34.519     1>Done building target "BeforeResolveReferences" in project "Project1.vcxproj".: (TargetId:21)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+17:25:34.519     1>Target "ResolveProjectReferences: (TargetId:22)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+17:25:34.520     1>Done building target "ResolveProjectReferences" in project "Project1.vcxproj".: (TargetId:22)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+                   Target "ResolveAssemblyReferences" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+17:25:34.520     1>Target "AfterResolveReferences: (TargetId:23)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "ResolveReferences" depends on it):
+17:25:34.520     1>Done building target "AfterResolveReferences" in project "Project1.vcxproj".: (TargetId:23)
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+17:25:34.520     1>Target "ResolveReferences: (TargetId:24)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Build" depends on it):
+17:25:34.520     1>Done building target "ResolveReferences" in project "Project1.vcxproj".: (TargetId:24)
+17:25:34.520     1>Target "PlatformPrepareForBuild: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+17:25:34.520     1>Done building target "PlatformPrepareForBuild" in project "Project1.vcxproj".: (TargetId:25)
+17:25:34.520     1>Target "GetFrameworkPaths: (TargetId:26)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "PrepareForBuild" depends on it):
+17:25:34.521     1>Done building target "GetFrameworkPaths" in project "Project1.vcxproj".: (TargetId:26)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+17:25:34.521     1>Target "GetReferenceAssemblyPaths: (TargetId:27)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+17:25:34.521     1>Done building target "GetReferenceAssemblyPaths" in project "Project1.vcxproj".: (TargetId:27)
+17:25:34.521     1>Target "PrepareForBuild: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Build" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Task "MakeDir" (TaskId:21)
+                   Done executing task "MakeDir". (TaskId:21)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:22)
+                   Done executing task "MakeDir". (TaskId:22)
+17:25:34.522     1>Done building target "PrepareForBuild" in project "Project1.vcxproj".: (TargetId:28)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+17:25:34.522     1>Target "InitializeBuildStatus: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:23)
+                   Done executing task "ReadLinesFromFile". (TaskId:23)
+                   Task "WriteLinesToFile" (TaskId:24)
+                   Done executing task "WriteLinesToFile". (TaskId:24)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:25)
+                     Creating "Debug\Project1.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:25)
+                   Done executing task "Touch". (TaskId:25)
+17:25:34.526     1>Done building target "InitializeBuildStatus" in project "Project1.vcxproj".: (TargetId:29)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+17:25:34.526     1>Target "BuildGenerateSourcesTraverse: (TargetId:30)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+17:25:34.527     1>Done building target "BuildGenerateSourcesTraverse" in project "Project1.vcxproj".: (TargetId:30)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+17:25:34.527     1>Target "BeforeBuildGenerateSources: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildGenerateSources" depends on it):
+17:25:34.527     1>Done building target "BeforeBuildGenerateSources" in project "Project1.vcxproj".: (TargetId:31)
+17:25:34.527     1>Target "PreBuildEvent: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+17:25:34.527     1>Done building target "PreBuildEvent" in project "Project1.vcxproj".: (TargetId:32)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+17:25:34.527     1>Target "_GenerateXMLData: (TargetId:33)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildGenerateSources" depends on it):
+17:25:34.527     1>Done building target "_GenerateXMLData" in project "Project1.vcxproj".: (TargetId:33)
+17:25:34.527     1>Target "_GenerateWebServiceProxy: (TargetId:34)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildGenerateSources" depends on it):
+17:25:34.527     1>Done building target "_GenerateWebServiceProxy" in project "Project1.vcxproj".: (TargetId:34)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+17:25:34.527     1>Target "_Xsd: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildGenerateSources" depends on it):
+17:25:34.527     1>Done building target "_Xsd" in project "Project1.vcxproj".: (TargetId:35)
+17:25:34.527     1>Target "MakeDirsForMidl: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:26)
+                   Done executing task "Makedir". (TaskId:26)
+17:25:34.527     1>Done building target "MakeDirsForMidl" in project "Project1.vcxproj".: (TargetId:36)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+17:25:34.527     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Midl" depends on it):
+17:25:34.528     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "Project1.vcxproj".: (TargetId:37)
+17:25:34.528     1>Target "AfterMidl: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Midl" depends on it):
+17:25:34.528     1>Done building target "AfterMidl" in project "Project1.vcxproj".: (TargetId:38)
+17:25:34.528     1>Target "_Midl: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildGenerateSources" depends on it):
+17:25:34.528     1>Done building target "_Midl" in project "Project1.vcxproj".: (TargetId:39)
+17:25:34.528     1>Target "AfterBuildGenerateSources: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildGenerateSources" depends on it):
+17:25:34.528     1>Done building target "AfterBuildGenerateSources" in project "Project1.vcxproj".: (TargetId:40)
+17:25:34.528     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildGenerateSources" depends on it):
+17:25:34.528     1>Done building target "AfterBuildGenerateSourcesEvent" in project "Project1.vcxproj".: (TargetId:41)
+17:25:34.528     1>Target "BuildGenerateSources: (TargetId:42)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Build" depends on it):
+17:25:34.528     1>Done building target "BuildGenerateSources" in project "Project1.vcxproj".: (TargetId:42)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+17:25:34.528     1>Target "BuildCompileTraverse: (TargetId:43)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+17:25:34.528     1>Done building target "BuildCompileTraverse" in project "Project1.vcxproj".: (TargetId:43)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+17:25:34.528     1>Target "BeforeClCompile: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_ClCompile" depends on it):
+17:25:34.528     1>Done building target "BeforeClCompile" in project "Project1.vcxproj".: (TargetId:44)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+17:25:34.528     1>Target "ComputeCLInputPDBName: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_ClCompile" depends on it):
+17:25:34.528     1>Done building target "ComputeCLInputPDBName" in project "Project1.vcxproj".: (TargetId:45)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+17:25:34.528     1>Target "ComputeReferenceCLInput: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" skipped, due to false condition; (('@(ProjectReference)'!='' or '@(Reference)'!='')) was evaluated as ((''!='' or ''!='')).
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+17:25:34.529     1>Done building target "ComputeReferenceCLInput" in project "Project1.vcxproj".: (TargetId:46)
+17:25:34.529     1>Target "MakeDirsForCl: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:27)
+                   Done executing task "MakeDir". (TaskId:27)
+17:25:34.530     1>Done building target "MakeDirsForCl" in project "Project1.vcxproj".: (TargetId:47)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+17:25:34.530     1>Target "_SelectedFiles: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "SelectClCompile" depends on it):
+17:25:34.530     1>Done building target "_SelectedFiles" in project "Project1.vcxproj".: (TargetId:48)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+17:25:34.530     1>Target "SelectCustomBuild: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "SelectClCompile" depends on it):
+17:25:34.530     1>Done building target "SelectCustomBuild" in project "Project1.vcxproj".: (TargetId:49)
+17:25:34.530     1>Target "SelectClCompile: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "ClCompile" depends on it):
+17:25:34.530     1>Done building target "SelectClCompile" in project "Project1.vcxproj".: (TargetId:50)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+17:25:34.530     1>Target "ClCompile: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_ClCompile" depends on it):
+                   Task "Delete" (TaskId:28)
+                   Done executing task "Delete". (TaskId:28)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('' == 'Create' and ''!='true').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:29)
+                     Environment Variables passed to tool: (TaskId:29)
+                       VS_UNICODE_OUTPUT=28 (TaskId:29)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D TEST_EXECUTIVE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Executive.cpp Parser.cpp Tokenizer.cpp XmlElementParts.cpp XmlNodes.cpp XmlTree.cpp (TaskId:29)
+                     Tracking command: (TaskId:29)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Debug" /r "F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\EXECUTIVE.CPP|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\PARSER.CPP|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\TOKENIZER.CPP|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\XMLELEMENTPARTS.CPP|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\XMLNODES.CPP|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\XMLTREE.CPP" /b MSBuildConsole_CancelEvent56b70b8b9e2049b8929ba80fbf59917c  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D TEST_EXECUTIVE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Executive.cpp Parser.cpp Tokenizer.cpp XmlElementParts.cpp XmlNodes.cpp XmlTree.cpp (TaskId:29)
+                     XmlTree.cpp (TaskId:29)
+                     XmlNodes.cpp (TaskId:29)
+                     XmlElementParts.cpp (TaskId:29)
+                     Tokenizer.cpp (TaskId:29)
+                     Parser.cpp (TaskId:29)
+                     Executive.cpp (TaskId:29)
+                     Generating Code... (TaskId:29)
+                   Done executing task "CL". (TaskId:29)
+17:25:39.140     1>Done building target "ClCompile" in project "Project1.vcxproj".: (TargetId:51)
+17:25:39.140     1>Target "AfterClCompile: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_ClCompile" depends on it):
+17:25:39.140     1>Done building target "AfterClCompile" in project "Project1.vcxproj".: (TargetId:52)
+17:25:39.140     1>Target "_ClCompile: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildCompile" depends on it):
+17:25:39.140     1>Done building target "_ClCompile" in project "Project1.vcxproj".: (TargetId:53)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+17:25:39.140     1>Target "BeforeResourceCompile: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_ResourceCompile" depends on it):
+17:25:39.140     1>Done building target "BeforeResourceCompile" in project "Project1.vcxproj".: (TargetId:54)
+17:25:39.140     1>Target "MakeDirsForResourceCompile: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:30)
+                   Done executing task "MakeDir". (TaskId:30)
+17:25:39.141     1>Done building target "MakeDirsForResourceCompile" in project "Project1.vcxproj".: (TargetId:55)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+17:25:39.141     1>Target "AfterResourceCompile: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_ResourceCompile" depends on it):
+17:25:39.141     1>Done building target "AfterResourceCompile" in project "Project1.vcxproj".: (TargetId:56)
+17:25:39.141     1>Target "_ResourceCompile: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildCompile" depends on it):
+17:25:39.141     1>Done building target "_ResourceCompile" in project "Project1.vcxproj".: (TargetId:57)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+                   Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+17:25:39.141     1>Target "AfterBuildCompileEvent: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildCompile" depends on it):
+17:25:39.141     1>Done building target "AfterBuildCompileEvent" in project "Project1.vcxproj".: (TargetId:58)
+17:25:39.141     1>Target "BuildCompile: (TargetId:59)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Build" depends on it):
+17:25:39.141     1>Done building target "BuildCompile" in project "Project1.vcxproj".: (TargetId:59)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+17:25:39.141     1>Target "BuildLinkTraverse: (TargetId:60)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+17:25:39.141     1>Done building target "BuildLinkTraverse" in project "Project1.vcxproj".: (TargetId:60)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+17:25:39.141     1>Target "BeforeLink: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+17:25:39.141     1>Done building target "BeforeLink" in project "Project1.vcxproj".: (TargetId:61)
+17:25:39.141     1>Target "ComputeRCOutputs: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+17:25:39.143     1>Done building target "ComputeRCOutputs" in project "Project1.vcxproj".: (TargetId:62)
+17:25:39.143     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+17:25:39.143     1>Done building target "ComputeRCGeneratedLinkInputs" in project "Project1.vcxproj".: (TargetId:63)
+17:25:39.143     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+17:25:39.143     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "Project1.vcxproj".: (TargetId:64)
+17:25:39.143     1>Target "ComputeCustomBuildOutput: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:31)
+                   Done executing task "MakeDir". (TaskId:31)
+17:25:39.144     1>Done building target "ComputeCustomBuildOutput" in project "Project1.vcxproj".: (TargetId:65)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+17:25:39.144     1>Target "ComputeCLOutputs: (TargetId:66)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+17:25:39.144     1>Done building target "ComputeCLOutputs" in project "Project1.vcxproj".: (TargetId:66)
+17:25:39.144     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+17:25:39.144     1>Done building target "ComputeCLGeneratedLinkInputs" in project "Project1.vcxproj".: (TargetId:67)
+17:25:39.144     1>Target "ComputeLinkInputsFromProject: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+17:25:39.144     1>Done building target "ComputeLinkInputsFromProject" in project "Project1.vcxproj".: (TargetId:68)
+                   Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+17:25:39.144     1>Target "ComputeManifestInputsTargets: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+17:25:39.145     1>Done building target "ComputeManifestInputsTargets" in project "Project1.vcxproj".: (TargetId:69)
+17:25:39.145     1>Target "ManifestResourceCompile: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+                   Task "WriteLinesToFile" (TaskId:32)
+                   Done executing task "WriteLinesToFile". (TaskId:32)
+                   Task "WriteLinesToFile" (TaskId:33)
+                   Done executing task "WriteLinesToFile". (TaskId:33)
+                   Task "WriteLinesToFile" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' AND !EXISTS('@(ManifestResourceCompile)')) was evaluated as ('Application'=='DynamicLibrary' AND !EXISTS('Debug\Project1_manifest.rc')).
+                   Using "RC" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "RC" (TaskId:34)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Project1.exe.embed.manifest.res" Debug\Project1_manifest.rc  (TaskId:34)
+                     Tracking command: (TaskId:34)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Debug" /r "F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\PROJECT1_MANIFEST.RC" /b MSBuildConsole_CancelEvent87c775f0465642a8b85c2492e300c744  /c "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe"  /nologo /fo"Debug\Project1.exe.embed.manifest.res" Debug\Project1_manifest.rc  (TaskId:34)
+                   Done executing task "RC". (TaskId:34)
+17:25:39.206     1>Done building target "ManifestResourceCompile" in project "Project1.vcxproj".: (TargetId:70)
+                   Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+17:25:39.206     1>Target "AssignTargetPaths: (TargetId:71)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:35)
+                   Done executing task "AssignTargetPath". (TaskId:35)
+                   Task "AssignTargetPath" (TaskId:36)
+                   Done executing task "AssignTargetPath". (TaskId:36)
+                   Task "AssignTargetPath" (TaskId:37)
+                   Done executing task "AssignTargetPath". (TaskId:37)
+                   Task "AssignTargetPath" (TaskId:38)
+                   Done executing task "AssignTargetPath". (TaskId:38)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.cd'=='.manifest').
+17:25:39.208     1>Done building target "AssignTargetPaths" in project "Project1.vcxproj".: (TargetId:71)
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+17:25:39.208     1>Target "SplitResourcesByCulture: (TargetId:72)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignCulture" (TaskId:39)
+                   Done executing task "AssignCulture". (TaskId:39)
+17:25:39.209     1>Done building target "SplitResourcesByCulture" in project "Project1.vcxproj".: (TargetId:72)
+                   Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+17:25:39.209     1>Target "CreateCustomManifestResourceNames: (TargetId:73)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "PrepareResourceNames" depends on it):
+17:25:39.209     1>Done building target "CreateCustomManifestResourceNames" in project "Project1.vcxproj".: (TargetId:73)
+17:25:39.210     1>Target "PrepareResourceNames: (TargetId:74)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+17:25:39.210     1>Done building target "PrepareResourceNames" in project "Project1.vcxproj".: (TargetId:74)
+17:25:39.210     1>Target "MakeDirsForLink: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:40)
+                   Done executing task "MakeDir". (TaskId:40)
+17:25:39.211     1>Done building target "MakeDirsForLink" in project "Project1.vcxproj".: (TargetId:75)
+17:25:39.211     1>Target "DoLinkOutputFilesMatch: (TargetId:76)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.exe' != 'F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.exe').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('.exe' != '.exe').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('Project1' != 'Project1').
+17:25:39.211     1>Done building target "DoLinkOutputFilesMatch" in project "Project1.vcxproj".: (TargetId:76)
+17:25:39.211     1>Target "PreLinkEvent: (TargetId:77)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+17:25:39.212     1>Done building target "PreLinkEvent" in project "Project1.vcxproj".: (TargetId:77)
+17:25:39.212     1>Target "Link: (TargetId:78)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+                   Using "Link" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Link" (TaskId:41)
+                     Environment Variables passed to tool: (TaskId:41)
+                       VS_UNICODE_OUTPUT=1228 (TaskId:41)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\Project1.exe.embed.manifest.res
+                     Debug\Executive.obj
+                     Debug\Parser.obj
+                     Debug\Tokenizer.obj
+                     Debug\XmlElementParts.obj
+                     Debug\XmlNodes.obj
+                     Debug\XmlTree.obj (TaskId:41)
+                     Tracking command: (TaskId:41)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Debug" /r "F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\EXECUTIVE.OBJ|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\PARSER.OBJ|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\PROJECT1.EXE.EMBED.MANIFEST.RES|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\TOKENIZER.OBJ|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\XMLELEMENTPARTS.OBJ|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\XMLNODES.OBJ|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\XMLTREE.OBJ" /b MSBuildConsole_CancelEvent32eda798059f479aa872c66227e87e27  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\Project1.exe.embed.manifest.res
+                     Debug\Executive.obj
+                     Debug\Parser.obj
+                     Debug\Tokenizer.obj
+                     Debug\XmlElementParts.obj
+                     Debug\XmlNodes.obj
+                     Debug\XmlTree.obj (TaskId:41)
+                   Done executing task "Link". (TaskId:41)
+                   Task "Message" skipped, due to false condition; ('$(EmbedManifestBy)' != 'LINK') was evaluated as ('LINK' != 'LINK').
+17:25:39.482     1>Done building target "Link" in project "Project1.vcxproj".: (TargetId:78)
+17:25:39.482     1>Target "_DetermineManagedStateForLink: (TargetId:79)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+17:25:39.482     1>Done building target "_DetermineManagedStateForLink" in project "Project1.vcxproj".: (TargetId:79)
+17:25:39.482     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:80)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+                   Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkImportLibrary)' != '') was evaluated as ('' != '').
+17:25:39.482     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "Project1.vcxproj".: (TargetId:80)
+17:25:39.482     1>Target "AfterLink: (TargetId:81)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Link" depends on it):
+17:25:39.482     1>Done building target "AfterLink" in project "Project1.vcxproj".: (TargetId:81)
+17:25:39.482     1>Target "_Link: (TargetId:82)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+17:25:39.482     1>Done building target "_Link" in project "Project1.vcxproj".: (TargetId:82)
+17:25:39.482     1>Target "_ALink: (TargetId:83)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+17:25:39.482     1>Done building target "_ALink" in project "Project1.vcxproj".: (TargetId:83)
+                   Target "ComputeManifestInputsTargets" skipped. Previously built successfully.
+17:25:39.482     1>Target "MakeDirsForManifest: (TargetId:84)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Manifest" depends on it):
+                   Task "MakeDir" (TaskId:42)
+                   Done executing task "MakeDir". (TaskId:42)
+17:25:39.483     1>Done building target "MakeDirsForManifest" in project "Project1.vcxproj".: (TargetId:84)
+17:25:39.483     1>Target "Manifest: (TargetId:85)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Manifest" depends on it):
+                   Task "Delete" (TaskId:43)
+                     Deleting file "Debug\Project1.exe.embed.manifest". (TaskId:43)
+                   Done executing task "Delete". (TaskId:43)
+                   Using "Mt" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Mt" (TaskId:44)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Project1.exe.embed.manifest" /manifest Debug\Project1.exe.intermediate.manifest (TaskId:44)
+                     Tracking command: (TaskId:44)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Debug" /r "F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\PROJECT1.EXE.INTERMEDIATE.MANIFEST" /b MSBuildConsole_CancelEvent560a4d6e3365411e9bc83fdf36b0cf85  /c "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe"  /nologo /verbose /out:"Debug\Project1.exe.embed.manifest" /manifest Debug\Project1.exe.intermediate.manifest (TaskId:44)
+                   Done executing task "Mt". (TaskId:44)
+                   Task "RC" (TaskId:45)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Project1.exe.embed.manifest.res" Debug\Project1_manifest.rc  (TaskId:45)
+                     Tracking command: (TaskId:45)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Debug" /r "F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\PROJECT1_MANIFEST.RC" /b MSBuildConsole_CancelEventd36b5512305b4759aa824b33d8670ab7  /c "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe"  /nologo /fo"Debug\Project1.exe.embed.manifest.res" Debug\Project1_manifest.rc  (TaskId:45)
+                   Done executing task "RC". (TaskId:45)
+17:25:39.585     1>Done building target "Manifest" in project "Project1.vcxproj".: (TargetId:85)
+                   Target "ComputeManifestGeneratedLinkerInputs" skipped. Previously built successfully.
+17:25:39.585     1>Target "LinkEmbedManifest: (TargetId:86)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_Manifest" depends on it):
+                   Task "Link" (TaskId:46)
+                     Environment Variables passed to tool: (TaskId:46)
+                       VS_UNICODE_OUTPUT=1556 (TaskId:46)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\Project1.exe.embed.manifest.res
+                     Debug\Executive.obj
+                     Debug\Parser.obj
+                     Debug\Tokenizer.obj
+                     Debug\XmlElementParts.obj
+                     Debug\XmlNodes.obj
+                     Debug\XmlTree.obj (TaskId:46)
+                     Tracking command: (TaskId:46)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Debug" /r "F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\EXECUTIVE.OBJ|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\PARSER.OBJ|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\PROJECT1.EXE.EMBED.MANIFEST.RES|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\TOKENIZER.OBJ|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\XMLELEMENTPARTS.OBJ|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\XMLNODES.OBJ|F:\VARUN\SPRING 2010\OOD\VARUN\PROJECT1\PROJECT1\PROJECT1\DEBUG\XMLTREE.OBJ" /b MSBuildConsole_CancelEvent1d4b184303b348f5acf321a98f822fa5  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\Project1.exe.embed.manifest.res
+                     Debug\Executive.obj
+                     Debug\Parser.obj
+                     Debug\Tokenizer.obj
+                     Debug\XmlElementParts.obj
+                     Debug\XmlNodes.obj
+                     Debug\XmlTree.obj (TaskId:46)
+                   Done executing task "Link". (TaskId:46)
+                   Task "Message" (TaskId:47)
+                     Project1.vcxproj -> F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Debug\Project1.exe (TaskId:47)
+                   Done executing task "Message". (TaskId:47)
+17:25:39.907     1>Done building target "LinkEmbedManifest" in project "Project1.vcxproj".: (TargetId:86)
+17:25:39.907     1>Target "_Manifest: (TargetId:87)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+17:25:39.907     1>Done building target "_Manifest" in project "Project1.vcxproj".: (TargetId:87)
+17:25:39.907     1>Target "RegisterOutput: (TargetId:88)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+17:25:39.908     1>Done building target "RegisterOutput" in project "Project1.vcxproj".: (TargetId:88)
+17:25:39.908     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:89)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_XdcMake" depends on it):
+17:25:39.909     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "Project1.vcxproj".: (TargetId:89)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+17:25:39.909     1>Target "ResolvedXDCMake: (TargetId:90)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+17:25:39.909     1>Done building target "ResolvedXDCMake" in project "Project1.vcxproj".: (TargetId:90)
+17:25:39.909     1>Target "MakeDirsForXdcMake: (TargetId:91)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:48)
+                   Done executing task "MakeDir". (TaskId:48)
+17:25:39.909     1>Done building target "MakeDirsForXdcMake" in project "Project1.vcxproj".: (TargetId:91)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+17:25:39.909     1>Target "_XdcMake: (TargetId:92)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+17:25:39.909     1>Done building target "_XdcMake" in project "Project1.vcxproj".: (TargetId:92)
+17:25:39.909     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:93)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_BscMake" depends on it):
+17:25:39.910     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "Project1.vcxproj".: (TargetId:93)
+17:25:39.910     1>Target "MakeDirsForBscMake: (TargetId:94)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:49)
+                   Done executing task "MakeDir". (TaskId:49)
+17:25:39.910     1>Done building target "MakeDirsForBscMake" in project "Project1.vcxproj".: (TargetId:94)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+17:25:39.910     1>Target "_BscMake: (TargetId:95)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+17:25:39.910     1>Done building target "_BscMake" in project "Project1.vcxproj".: (TargetId:95)
+17:25:39.910     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:96)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+17:25:39.910     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "Project1.vcxproj".: (TargetId:96)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+17:25:39.911     1>Target "CreateSatelliteAssemblies: (TargetId:97)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+17:25:39.911     1>Done building target "CreateSatelliteAssemblies" in project "Project1.vcxproj".: (TargetId:97)
+17:25:39.911     1>Target "_Appverifier: (TargetId:98)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+17:25:39.911     1>Done building target "_Appverifier" in project "Project1.vcxproj".: (TargetId:98)
+17:25:39.911     1>Target "_Deploy: (TargetId:99)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+17:25:39.911     1>Done building target "_Deploy" in project "Project1.vcxproj".: (TargetId:99)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+17:25:39.911     1>Target "GetCopyToOutputDirectoryItems: (TargetId:100)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:50)
+                   Done executing task "AssignTargetPath". (TaskId:50)
+17:25:39.912     1>Done building target "GetCopyToOutputDirectoryItems" in project "Project1.vcxproj".: (TargetId:100)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+17:25:39.912     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:101)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+17:25:39.912     1>Done building target "_CopySourceItemsToOutputDirectory" in project "Project1.vcxproj".: (TargetId:101)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+17:25:39.912     1>Target "_CheckForCompileOutputs: (TargetId:102)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+17:25:39.912     1>Done building target "_CheckForCompileOutputs" in project "Project1.vcxproj".: (TargetId:102)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+17:25:39.912     1>Target "CopyFilesToOutputDirectory: (TargetId:103)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyBuildProduct)'!='true') was evaluated as ('true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+17:25:39.913     1>Done building target "CopyFilesToOutputDirectory" in project "Project1.vcxproj".: (TargetId:103)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+17:25:39.913     1>Target "PostBuildEvent: (TargetId:104)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+17:25:39.913     1>Done building target "PostBuildEvent" in project "Project1.vcxproj".: (TargetId:104)
+17:25:39.913     1>Target "BuildLink: (TargetId:105)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Build" depends on it):
+17:25:39.913     1>Done building target "BuildLink" in project "Project1.vcxproj".: (TargetId:105)
+17:25:39.913     1>Target "AfterBuild: (TargetId:106)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Build" depends on it):
+17:25:39.913     1>Done building target "AfterBuild" in project "Project1.vcxproj".: (TargetId:106)
+17:25:39.913     1>Target "FinalizeBuildStatus: (TargetId:107)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Build" depends on it):
+                   Task "Delete" (TaskId:51)
+                     Deleting file "Debug\Project1.unsuccessfulbuild". (TaskId:51)
+                   Done executing task "Delete". (TaskId:51)
+                   Task "Touch" (TaskId:52)
+                     Touching "Debug\Project1.lastbuildstate". (TaskId:52)
+                   Done executing task "Touch". (TaskId:52)
+17:25:39.915     1>Done building target "FinalizeBuildStatus" in project "Project1.vcxproj".: (TargetId:107)
+17:25:39.915     1>Target "Build: (TargetId:108)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Rebuild" depends on it):
+17:25:39.915     1>Done building target "Build" in project "Project1.vcxproj".: (TargetId:108)
+17:25:39.915     1>Target "AfterRebuild: (TargetId:109)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (target "Rebuild" depends on it):
+17:25:39.915     1>Done building target "AfterRebuild" in project "Project1.vcxproj".: (TargetId:109)
+17:25:39.915     1>Target "Rebuild: (TargetId:110)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (entry point):
+17:25:39.915     1>Done building target "Rebuild" in project "Project1.vcxproj".: (TargetId:110)
+17:25:39.915     1>Done Building Project "F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj" (rebuild target(s)).
+
+Project Performance Summary:
+     5508 ms  F:\Varun\Spring 2010\OOD\Varun\Project1\Project1\Project1\Project1.vcxproj   1 calls
+               5508 ms  rebuild                                    1 calls
+
+Target Performance Summary:
+        0 ms  AfterCppClean                              1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  BeforeRebuild                              1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  _DetermineManagedStateForLink              1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  Rebuild                                    1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  Build                                      1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  AfterRebuild                               1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  _PrepareForRebuild                         1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  AfterLink                                  1 calls
+        1 ms  BuildGenerateSourcesTraverse               1 calls
+        1 ms  ResolveProjectReferences                   1 calls
+        1 ms  MakeDirsForResourceCompile                 1 calls
+        1 ms  PrepareForBuild                            1 calls
+        1 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  _PrepareForBuild                           1 calls
+        1 ms  ComputeCustomBuildOutput                   1 calls
+        1 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  SplitResourcesByCulture                    1 calls
+        1 ms  CoreClean                                  1 calls
+        1 ms  RegisterOutput                             1 calls
+        1 ms  _PrepareForClean                           1 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  GetFrameworkPaths                          1 calls
+        1 ms  CopyFilesToOutputDirectory                 1 calls
+        1 ms  PGInstrumentedClean                        1 calls
+        1 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        1 ms  PreLinkEvent                               1 calls
+        1 ms  ComputeManifestInputsTargets               1 calls
+        1 ms  _SplitProjectReferencesByFileExistence     1 calls
+        1 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        1 ms  MakeDirsForManifest                        1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        2 ms  FinalizeBuildStatus                        1 calls
+        2 ms  AssignTargetPaths                          1 calls
+        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        2 ms  ComputeRCOutputs                           1 calls
+        4 ms  InitializeBuildStatus                      1 calls
+        4 ms  SetBuildDefaultEnvironmentVariables        1 calls
+       61 ms  ManifestResourceCompile                    1 calls
+      100 ms  CoreCppClean                               1 calls
+      102 ms  Manifest                                   1 calls
+      270 ms  Link                                       1 calls
+      322 ms  LinkEmbedManifest                          1 calls
+     4610 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  FindUnderPath                              2 calls
+        0 ms  ReadLinesFromFile                          2 calls
+        0 ms  Message                                    3 calls
+        0 ms  RemoveDuplicates                           1 calls
+        0 ms  AssignCulture                              1 calls
+        1 ms  Delete                                     7 calls
+        2 ms  Touch                                      2 calls
+        2 ms  MakeDir                                   12 calls
+        2 ms  AssignTargetPath                           5 calls
+        4 ms  SetEnv                                     4 calls
+        9 ms  WriteLinesToFile                           5 calls
+       52 ms  Mt                                         1 calls
+       94 ms  CppClean                                   1 calls
+      107 ms  RC                                         2 calls
+      588 ms  Link                                       2 calls
+     4605 ms  CL                                         1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:05.51

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?> 
+  <!--  XML test case --> 
+  <LectureNote course="CSE687">
+  
+  <title>XML Example #1</title> 
+  <testTag>
+  <title>Object Oriented Design</title> 
+  <author>
+  Dr. Jim Fawcett 
+  <note id="testId" /> 
+  </author>
+  <publisher>Syracuse University</publisher> 
+  <date>2002</date> 
+  <page>608</page> 
+  </testTag>
+  <comment>Description of PCDATA</comment> 
+  </LectureNote>
